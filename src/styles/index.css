@@ -10,15 +10,20 @@
   --color-green-pistachio: #90BE6D;
   --color-green-aquamarine-zomp: #43AA8B;
   --color-gray-paynes: #577590;
-  border: solid blue;
 }
 
 body {
-  font-family: RalewayR, Roboto, -apple-system, sans-serif
+  font-family: RalewayR, Roboto, -apple-system, sans-serif;
 }
 
-h1 {
-  font-family: RalewayL, Roboto, -apple-system, sans-serif
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: RalewayL, Roboto, -apple-system, sans-serif;
+  border: solid var(--color-gray-paynes);
+  flex-direction: row;
 }
 
 .number {
