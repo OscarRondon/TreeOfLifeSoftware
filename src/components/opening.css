@@ -8,11 +8,12 @@
   width: 100vw;
   width: 100svw;
   position: fixed;
-  background-color: var(--color-orange-carrot);
+  background-color: #faac4e;
   z-index: 1;
   animation: hideOpening;
-  animation-duration: 7s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 3.5s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -20,6 +21,7 @@
 .opening img {
   border: solid black 0.5px;
   border-radius: 2%;
+  box-shadow: 15px 15px 15px 5px rgb(0, 0, 0, 0.3);
   animation: scaleLogo;
   animation-duration: 3s;
   animation-timing-function: linear;
@@ -33,7 +35,7 @@
   }
 
   100% {
-    transform: scale(1);
+    transform: scale(0.75);
   }
 }
 
@@ -42,9 +44,7 @@
     opacity: 1;
   }
 
-  50% {
-    opacity: 1;
-  }
+
 
   100% {
     opacity: 0;
