@@ -1,0 +1,35 @@
+:root {
+  /* 
+  Color palette 
+  https://coolors.co/palette/f94144-f3722c-f8961e-f9c74f-90be6d-43aa8b-577590
+  */
+  --color-imperial-red: #F94144;
+  --color-orange-crayola: #F3722C;
+  --color-orange-carrot: #F8961E;
+  --color-yellow-saffron: #F9C74F;
+  --color-green-pistachio: #90BE6D;
+  --color-green-aquamarine-zomp: #43AA8B;
+  --color-gray-paynes: #577590;
+}
+
+body {
+  font-family: RalewayR, Roboto, -apple-system, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: RalewayL, Roboto, -apple-system, sans-serif;
+  flex-direction: row;
+}
+
+.number {
+  font-family: OpenSansR, Roboto, -apple-system, sans-serif;
+}
+
+.border {
+  border: dashed var(--color-gray-paynes) 0.3px;
+}

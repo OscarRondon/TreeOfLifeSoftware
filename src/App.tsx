@@ -1,17 +1,21 @@
+import './styles/App.css'
 import { Opening } from './components/Opnening'
+import { AppMain } from './components/AppMain'
+import { AppSidebar } from './components/AppSidebar'
+import { AppFooter } from './components/AppFooter'
+import { AppHeader } from './components/AppHeader'
+import { AppNavbar } from './components/AppNavbar'
 
 function App () {
 
   return (
     <>
       <Opening />
-      <div>
-        <h1>Tree of Life Software!!!</h1>
-        <h2>Tree of Life Software!!!</h2>
-        <h3>Tree of Life Software!!!</h3>
-        <h4>Tree of Life Software!!!</h4>
-        <h5>Tree of Life Software!!!</h5>
-      </div>
+      <AppHeader />
+      <AppNavbar />
+      <AppSidebar />
+      <AppMain />
+      <AppFooter />
     </>
   )
 }

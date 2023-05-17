@@ -1,4 +1,4 @@
-import './opening.css'
+import '../styles/Opening.css'
 
 export function Opening () {
   return (
