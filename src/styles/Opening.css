@@ -8,7 +8,8 @@
   width: 100dvw;
   width: 100vw;
   position: fixed;
-  background-color: #faac4e;
+  background: radial-gradient(circle, var(--color-orange-bg) 10%, var(--color-yellow-saffron) 100%);
+  ;
   z-index: 1;
   animation: hideOpening;
   animation-delay: 2500ms;

@@ -6,6 +6,7 @@
   --color-imperial-red: #F94144;
   --color-orange-crayola: #F3722C;
   --color-orange-carrot: #F8961E;
+  --color-orange-bg: #fff3e5;
   --color-yellow-saffron: #F9C74F;
   --color-green-pistachio: #90BE6D;
   --color-green-aquamarine-zomp: #43AA8B;
@@ -14,6 +15,7 @@
 
 body {
   font-family: RalewayR, Roboto, -apple-system, sans-serif;
+  background-color: var(--color-orange-bg);
 }
 
 h1,
@@ -23,8 +25,8 @@ h4,
 h5,
 h6 {
   font-family: RalewayL, Roboto, -apple-system, sans-serif;
-  flex-direction: row;
 }
+
 
 .number {
   font-family: OpenSansR, Roboto, -apple-system, sans-serif;
@@ -32,4 +34,65 @@ h6 {
 
 .border {
   border: dashed var(--color-gray-paynes) 0.3px;
+}
+
+.main-header {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-color: #ffffff;
+  height: 14dvh;
+  height: 14vh;
+  width: 100%;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.header-logo {
+  object-fit: cover;
+  height: 12dvh;
+  height: 12vh;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header-navbar {
+  width: 75%;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-navbar li {
+  margin-left: 20px;
+}
+
+.header-navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+
+.header-navbar ul li a:hover {
+  color: #F8961E;
+}
+
+.header-button-contact {
+  width: 10%;
+  margin-right: 5px;
+}
+
+.header-button-hamburger {
+  width: 10%;
+  margin-right: 5px;
+  display: none;
 }
