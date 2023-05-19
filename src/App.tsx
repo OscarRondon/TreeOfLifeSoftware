@@ -13,7 +13,9 @@ function App () {
       <AppHeader />
       <div style={{ height: '100vh' }} />
       <AppSidebar />
+      <div style={{ height: '100vh' }} />
       <AppMain />
+      <div style={{ height: '100vh' }} />
       <AppFooter />
     </>
   )
