@@ -9,8 +9,7 @@
   width: 100vw;
   position: fixed;
   background: radial-gradient(circle, var(--color-orange-bg) 10%, var(--color-yellow-saffron) 100%);
-  ;
-  z-index: 1;
+  z-index: 2;
   animation: hideOpening;
   animation-delay: 2500ms;
   animation-duration: 500ms;

@@ -1,6 +1,6 @@
 export function AppNavbar () {
   return (
-    <nav className='header-navbar border'>
+    <nav className='header-navbar'>
       <ul>
         <li><a href='#'>Home</a></li>
         <li><a href='#'>Technologies</a></li>

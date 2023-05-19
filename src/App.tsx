@@ -11,6 +11,7 @@ function App () {
     <>
       <Opening />
       <AppHeader />
+      <div style={{ height: '100vh' }} />
       <AppSidebar />
       <AppMain />
       <AppFooter />
