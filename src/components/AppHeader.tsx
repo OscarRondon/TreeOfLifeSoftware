@@ -1,4 +1,6 @@
+import '../styles/AppHeader.css'
 import { AppNavbar } from './AppNavbar'
+import { HamburgerButton } from './HamburgerButton'
 
 export function AppHeader () {
   return (
@@ -9,7 +11,7 @@ export function AppHeader () {
         <div className='header-button-contact'>
           <button className='button-m' type='button'>CONTACT US</button>
         </div>
-        <div className='header-button-hamburger'>Hamburger</div>
+        <div className='header-button-hamburger'> <HamburgerButton /> </div>
       </header>
       <section className='spikes' />
     </div>
