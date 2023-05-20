@@ -1,5 +1,3 @@
-import '../styles/Opening.css'
-
 export function Opening () {
   return (
     <div className='opening'>

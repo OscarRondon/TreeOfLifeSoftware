@@ -1,4 +1,3 @@
-import '../styles/AppHeader.css'
 import { AppNavbar } from './AppNavbar'
 import { HamburgerButton } from './HamburgerButton'
 

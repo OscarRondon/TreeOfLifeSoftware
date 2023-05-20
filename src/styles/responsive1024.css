@@ -1,0 +1,68 @@
+@media screen and (max-width: 1367px) {
+  body {
+    font-size: small;
+  }
+
+  .page-width {
+    width: 90%;
+  }
+
+  .button-m {
+    width: 200px;
+    height: 30px;
+    font-size: xx-small;
+  }
+
+  .header-logo {
+    height: 10dvh;
+    height: 10vh;
+    margin-bottom: 0px;
+  }
+
+  .header-navbar {
+    width: 70%;
+    margin-bottom: 0px;
+  }
+
+  .header-button-contact {
+    width: 15%;
+    margin-bottom: 0px;
+  }
+
+
+  .spikes::after {
+    height: 15px;
+    background-size: 15px 100%;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .page-width {
+    width: 100%;
+  }
+
+  .button-m {
+    width: 200px;
+    height: 30px;
+    font-size: xx-small;
+  }
+
+  .main-header {
+    justify-content: space-around;
+    display: none;
+  }
+
+  .header-logo {
+    height: 8dvh;
+    height: 8vh;
+  }
+
+  .header-navbar {
+    display: none;
+  }
+
+  .header-button-hamburger {
+    display: flex;
+  }
+}

@@ -1,4 +1,3 @@
-import '../styles/HamburgerButton.css'
 import { HamburgerButtonSVG } from '../utils/svgs'
 
 export function HamburgerButton () {

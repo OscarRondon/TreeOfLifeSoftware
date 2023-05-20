@@ -64,7 +64,6 @@
   width: 10%;
   margin-right: 5px;
   margin-bottom: 5px;
-  display: none;
 }
 
 .header-button-hamburger {
@@ -74,6 +73,7 @@
   width: 10%;
   margin-right: 5px;
   margin-bottom: 5px;
+  display: none;
 }
 
 .spikes {
@@ -96,7 +96,3 @@
     linear-gradient(220deg, #ffffff 20%, var(--color-gray-paynes) 5%, transparent 25%);
   background-position: 0 0;
 }
-
-/**********************************************************************************************************/
-/* Responsive */
-/**********************************************************************************************************/
