@@ -1,7 +1,10 @@
 export function AppFooter () {
+
   return (
-    <footer className='border' style={{ position: 'sticky', bottom: '0vh', width: '100%' }}>
-      <h1>Footer component!!</h1>
-    </footer>
+    <>
+      <footer className='footer'>
+        <p>Tree of Life Software ®</p>
+      </footer>
+    </>
   )
 }

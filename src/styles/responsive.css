@@ -3,6 +3,16 @@
     font-size: small;
   }
 
+  @keyframes scaleLogo {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(0.50);
+    }
+  }
+
   .page-width {
     width: 90%;
   }
@@ -35,34 +45,65 @@
     background-size: 15px 100%;
   }
 
+  .footer {
+    font-size: x-small;
+  }
+
 }
 
-@media screen and (max-width: 380px) {
+
+@media screen and (max-width: 381px) {
+  body {
+    font-size: small;
+  }
+
+  @keyframes scaleLogo {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(0.30);
+    }
+  }
+
   .page-width {
     width: 100%;
   }
 
   .button-m {
-    width: 200px;
+    width: 100px;
     height: 30px;
     font-size: xx-small;
-  }
-
-  .main-header {
-    justify-content: space-around;
-    display: none;
   }
 
   .header-logo {
     height: 8dvh;
     height: 8vh;
+    margin-bottom: 0px;
   }
 
   .header-navbar {
     display: none;
   }
 
+  .header-button-contact {
+    width: 55%;
+    margin-bottom: 0px;
+  }
+
   .header-button-hamburger {
     display: flex;
+    width: 25%;
+  }
+
+
+  .spikes::after {
+    height: 15px;
+    background-size: 15px 100%;
+  }
+
+  .footer {
+    font-size: x-small;
   }
 }

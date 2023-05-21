@@ -89,8 +89,8 @@
   left: -0%;
   top: 100%;
   display: block;
-  height: 30px;
-  background-size: 30px 100%;
+  height: 20px;
+  background-size: 20px 100%;
   background-image:
     linear-gradient(140deg, #ffffff 20%, var(--color-gray-paynes) 5%, transparent 25%),
     linear-gradient(220deg, #ffffff 20%, var(--color-gray-paynes) 5%, transparent 25%);
