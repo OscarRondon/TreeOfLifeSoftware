@@ -1,7 +1,9 @@
+import { AppNavbar } from './AppNavbar'
+
 export function AppSidebar () {
   return (
-    <aside className='border'>
-      <h1>Sidebar component!!</h1>
+    <aside className='sidebar display-none' aria-expanded='false'>
+      <AppNavbar type='ASIDE' />
     </aside>
   )
 }

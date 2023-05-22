@@ -40,6 +40,10 @@ h6 {
   border: dashed var(--color-imperial-red) 0.3px;
 }
 
+.display-none {
+  display: none;
+}
+
 .page-width {
   width: 80%;
   margin: auto;
