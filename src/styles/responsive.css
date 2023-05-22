@@ -18,9 +18,9 @@
   }
 
   .button-m {
-    width: 200px;
-    height: 30px;
-    font-size: xx-small;
+    width: 150px;
+    height: 40px;
+    font-size: small;
   }
 
   .header-logo {
@@ -32,6 +32,10 @@
   .header-navbar {
     width: 70%;
     margin-bottom: 0px;
+  }
+
+  .header-navbar ul {
+    justify-content: space-evenly;
   }
 
   .header-button-contact {
@@ -72,9 +76,9 @@
   }
 
   .button-m {
-    width: 100px;
-    height: 30px;
-    font-size: xx-small;
+    width: 150px;
+    height: 40px;
+    font-size: small;
   }
 
   .header-logo {
