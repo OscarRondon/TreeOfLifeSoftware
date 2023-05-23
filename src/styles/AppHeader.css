@@ -5,6 +5,7 @@
   position: sticky;
   background-color: #ffffff;
   top: 0;
+  z-index: 1;
 }
 
 .main-header {
@@ -79,7 +80,8 @@
 .spikes {
   position: relative;
   background: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 1dvh;
+  margin-bottom: 1vh;
 }
 
 .spikes::after {

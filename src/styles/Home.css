@@ -1,0 +1,5 @@
+.title-h1 {
+  color: var(--color-orange-crayola);
+  font-weight: bolder;
+  font-style: italic;
+}
