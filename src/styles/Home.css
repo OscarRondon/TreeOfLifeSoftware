@@ -1,5 +1,33 @@
 .title-h1 {
   color: var(--color-orange-crayola);
-  font-weight: bolder;
+  font-family: RalewayR;
+  font-weight: bold;
   font-style: italic;
+  font-size: 3.5em;
+  margin-top: -20px;
+}
+
+.home-container {
+  display: flex;
+  width: 95%;
+}
+
+.home-container img {
+  border: double var(--color-gray-paynes) 10px;
+  margin-right: 20px;
+  height: 45vh;
+  object-fit: cover;
+}
+
+
+.home-text {
+  line-height: 2;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.home-text p {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
