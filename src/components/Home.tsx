@@ -1,10 +1,10 @@
 export function Home () {
   return (
-    <section className='container page-width page-height'>
+    <section className='container page-width page-height border'>
       <div className='home-container'>
         <img src='/src/assets/Images/images/SoftwareDevelopment.png' />
         <div className='home-text'>
-          <h1 className='home-title-h1'><strong>Tree of Life Software</strong></h1>
+          <h1 className='container-title'><strong>Tree of Life Software</strong></h1>
           <p>As professionals on technologies and business, we are here to help you succeed.</p>
           <p>We understand that your business is constantly changing and evolving, looking for the competitive advantage that make you unique.</p>
           <p> We will be there with you every step of the way providing the resources and support you need to reach your goals.</p>

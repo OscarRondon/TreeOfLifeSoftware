@@ -3,15 +3,6 @@
   width: 95%;
 }
 
-.home-title-h1 {
-  color: var(--color-orange-crayola);
-  font-family: RalewayR;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 3.5em;
-  margin-top: -20px;
-}
-
 .home-container img {
   border: double var(--color-gray-paynes) 10px;
   margin-right: 20px;

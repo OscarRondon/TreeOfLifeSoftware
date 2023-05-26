@@ -75,6 +75,15 @@ h6 {
   padding: 15px;
 }
 
+.container-title {
+  color: var(--color-orange-crayola);
+  font-family: RalewayR;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3.5em;
+  margin-top: -20px;
+}
+
 /**********************************************************************************************************/
 /* Buttons */
 /**********************************************************************************************************/

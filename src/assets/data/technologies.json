@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "imgSrc": "../Images/images/html.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "imgSrc": "../Images/images/css.png"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "imgSrc": "../Images/images/js.jpg"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "imgSrc": "../Images/images/ts.png"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "imgSrc": "../Images/images/react.png"
+  },
+  {
+    "id": 6,
+    "name": "Node Js",
+    "imgSrc": "../Images/images/nodejs.jpg"
+  },
+  {
+    "id": 7,
+    "name": "C#",
+    "imgSrc": "../Images/images/csharp.png"
+  },
+  {
+    "id": 8,
+    "name": "Microsoft.Net",
+    "imgSrc": "../Images/images/MicrosoftNet.png"
+  },
+  {
+    "id": 9,
+    "name": "MS SQL Server",
+    "imgSrc": "../Images/images/sqlServer.jpg"
+  },
+  {
+    "id": 10,
+    "name": "MySql",
+    "imgSrc": "../Images/images/mySql.jpg"
+  },
+  {
+    "id": 11,
+    "name": "SAP Business One",
+    "imgSrc": "../Images/images/sapb1.png"
+  },
+  {
+    "id": 12,
+    "name": "SAP HANA",
+    "imgSrc": "../Images/images/saphana.png"
+  },
+  {
+    "id": 13,
+    "name": "Crystal Report",
+    "imgSrc": "../Images/images/crystalReport.png"
+  },
+  {
+    "id": 14,
+    "name": "Windows Server",
+    "imgSrc": "../Images/images/winserver.png"
+  },
+  {
+    "id": 15,
+    "name": "SUSE Linux Enterprise Server",
+    "imgSrc": "../Images/images/suseLinux.png"
+  }
+]
