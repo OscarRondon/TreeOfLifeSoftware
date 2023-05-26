@@ -1,4 +1,9 @@
-.title-h1 {
+.home-container {
+  display: flex;
+  width: 95%;
+}
+
+.home-title-h1 {
   color: var(--color-orange-crayola);
   font-family: RalewayR;
   font-weight: bold;
@@ -7,27 +12,24 @@
   margin-top: -20px;
 }
 
-.home-container {
-  display: flex;
-  width: 95%;
-}
-
 .home-container img {
   border: double var(--color-gray-paynes) 10px;
   margin-right: 20px;
+  height: 45dvh;
   height: 45vh;
   object-fit: cover;
 }
 
 
 .home-text {
-  line-height: 2;
+  line-height: 1.7;
   font-weight: 600;
   text-align: justify;
 }
 
 .home-text p {
-  margin-bottom: 10px;
+  font-size: 1.05em;
+  margin-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
