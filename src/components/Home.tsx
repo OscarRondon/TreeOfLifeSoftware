@@ -1,6 +1,6 @@
 export function Home () {
   return (
-    <section className='container page-width page-height border'>
+    <section className='container page-width page-height'>
       <div className='home-container'>
         <img src='/src/assets/Images/images/SoftwareDevelopment.png' />
         <div className='home-text'>

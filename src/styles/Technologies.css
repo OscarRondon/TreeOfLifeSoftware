@@ -1,0 +1,14 @@
+.tech-container {
+  width: 95%;
+  min-height: 65dvh;
+  min-height: 65vh;
+}
+
+.tech-list {
+  margin-top: 20px;
+  border: solid var(--color-gray-paynes) 0.5px;
+  border-radius: 5px;
+  min-height: 63dvh;
+  min-height: 63vh;
+  display: grid;
+}
