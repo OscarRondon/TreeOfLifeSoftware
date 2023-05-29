@@ -1,22 +1,9 @@
-import { useState, useEffect } from 'react'
+import technologies from '../assets/data/technologies.json'
 import { Techs } from '../dataTypes.d'
-
-const getTech = async () => {
-  return await fetch('/src/assets/data/technologies.json ')
-    .then(async res => await res.json())
-    .then(data => data)
-    .catch(err => { console.log(err) })
-}
 
 export function Technologies () {
 
-  const [techData, setTechData] = useState<Techs[]>([])
-
-  useEffect(() => {
-    getTech()
-      .then(data => { setTechData(data) })
-      .catch(err => { console.log(err); return [] })
-  }, [])
+  const techData: Techs[] = technologies as Techs[]
 
   return (
     <section id='technologies' className='container page-width page-height border'>
