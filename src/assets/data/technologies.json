@@ -2,90 +2,90 @@
   {
     "id": 1,
     "name": "HTML",
-    "imgSrc": "../Images/images/html.png",
+    "imgSrc": "/src/assets/Images/images/html.png",
     "active": true
   },
   {
     "id": 2,
     "name": "CSS",
-    "imgSrc": "../Images/images/css.png",
+    "imgSrc": "/src/assets/Images/images/css.png",
     "active": true
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "imgSrc": "../Images/images/js.jpg",
+    "imgSrc": "/src/assets/Images/images/js.jpg",
     "active": true
   },
   {
     "id": 4,
     "name": "TypeScript",
-    "imgSrc": "../Images/images/ts.png",
+    "imgSrc": "/src/assets/Images/images/ts.png",
     "active": true
   },
   {
     "id": 5,
     "name": "React",
-    "imgSrc": "../Images/images/react.png",
+    "imgSrc": "/src/assets/Images/images/react.png",
     "active": true
   },
   {
     "id": 6,
     "name": "Node Js",
-    "imgSrc": "../Images/images/nodejs.jpg",
+    "imgSrc": "/src/assets/Images/images/nodejs.jpg",
     "active": true
   },
   {
     "id": 7,
     "name": "C#",
-    "imgSrc": "../Images/images/csharp.png",
+    "imgSrc": "/src/assets/Images/images/csharp.png",
     "active": true
   },
   {
     "id": 8,
     "name": "Microsoft.Net",
-    "imgSrc": "../Images/images/MicrosoftNet.png",
+    "imgSrc": "/src/assets/Images/images/MicrosoftNet.png",
     "active": true
   },
   {
     "id": 9,
     "name": "MS SQL Server",
-    "imgSrc": "../Images/images/sqlServer.jpg"
+    "imgSrc": "/src/assets/Images/images/sqlServer.jpg"
   },
   {
     "id": 10,
     "name": "MySql",
-    "imgSrc": "../Images/images/mySql.jpg",
+    "imgSrc": "/src/assets/Images/images/mySql.jpg",
     "active": true
   },
   {
     "id": 11,
     "name": "SAP Business One",
-    "imgSrc": "../Images/images/sapb1.png",
+    "imgSrc": "/src/assets/Images/images/sapb1.png",
     "active": true
   },
   {
     "id": 12,
     "name": "SAP HANA",
-    "imgSrc": "../Images/images/saphana.png",
+    "imgSrc": "/src/assets/Images/images/saphana.png",
     "active": true
   },
   {
     "id": 13,
     "name": "Crystal Report",
-    "imgSrc": "../Images/images/crystalReport.png",
+    "imgSrc": "/src/assets/Images/images/crystalReport.png",
     "active": true
   },
   {
     "id": 14,
     "name": "Windows Server",
-    "imgSrc": "../Images/images/winserver.png",
+    "imgSrc": "/src/assets/Images/images/winserver.png",
     "active": true
   },
   {
     "id": 15,
     "name": "SUSE Linux Enterprise Server",
-    "imgSrc": "../Images/images/suseLinux.png",
+    "imgSrc": "/src/assets/Images/images/suseLinux.png",
     "active": true
   }
 ]
