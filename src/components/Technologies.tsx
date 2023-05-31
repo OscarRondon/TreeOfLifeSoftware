@@ -13,9 +13,9 @@ export function Technologies () {
           {
             techData.map((tech) => {
               return (
-                <div key={tech.id}>
+                <div key={tech.id} className='tech-card'>
                   <figure>
-                    <img src={tech.imgSrc} alt={tech.name} />
+                    <img style={{ height: tech.heightvh }} src={tech.imgSrc} alt={tech.name} />
                     <figcaption>{tech.name}</figcaption>
                   </figure>
                 </div>

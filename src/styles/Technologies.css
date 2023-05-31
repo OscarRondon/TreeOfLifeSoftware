@@ -12,3 +12,7 @@
   min-height: 63vh;
   display: grid;
 }
+
+.tech-card img {
+  object-fit: cover;
+}
