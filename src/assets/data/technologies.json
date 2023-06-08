@@ -20,7 +20,7 @@
     "name": "JavaScript",
     "heightvh" : "15vh",
     "heightdvh" : "15dvh",
-    "imgSrc": "/src/assets/Images/images/js.jpg",
+    "imgSrc": "/src/assets/Images/images/js.png",
     "active": true
   },
   {
@@ -44,7 +44,7 @@
     "name": "Node Js",
     "heightvh" : "15vh",
     "heightdvh" : "15dvh",
-    "imgSrc": "/src/assets/Images/images/nodejs.jpg",
+    "imgSrc": "/src/assets/Images/images/nodejs.png",
     "active": true
   },
   {
@@ -68,14 +68,14 @@
     "name": "MS SQL Server",
     "heightvh" : "15vh",
     "heightdvh" : "15dvh",
-    "imgSrc": "/src/assets/Images/images/sqlServer.jpg"
+    "imgSrc": "/src/assets/Images/images/sqlServer.png"
   },
   {
     "id": 10,
     "name": "MySql",
     "heightvh" : "15vh",
     "heightdvh" : "15dvh",
-    "imgSrc": "/src/assets/Images/images/mySql.jpg",
+    "imgSrc": "/src/assets/Images/images/mySql.png",
     "active": true
   },
   {
