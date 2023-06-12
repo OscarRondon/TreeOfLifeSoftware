@@ -10,7 +10,16 @@
   border-radius: 5px;
   min-height: 63dvh;
   min-height: 63vh;
+  padding: 10px;
   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.tech-card {
+  width: 250px;
+  height: 175px;
+  border: solid red 1px;
 }
 
 .tech-card img {
