@@ -2,119 +2,104 @@
   {
     "id": 1,
     "name": "HTML",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/html.png",
     "active": true
   },
   {
     "id": 2,
     "name": "CSS",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/css.png",
     "active": true
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/js.png",
     "active": true
   },
   {
     "id": 4,
     "name": "TypeScript",
-    "heightvh" : "10vh",
-    "heightdvh" : "10dvh",
+    "heightPerc" : "50%",
     "imgSrc": "/src/assets/Images/images/ts.png",
     "active": true
   },
   {
     "id": 5,
     "name": "React",
-    "heightvh" : "7vh",
-    "heightdvh" : "7dvh",
+    "heightPerc" : "45%",
     "imgSrc": "/src/assets/Images/images/react.png",
     "active": true
   },
   {
     "id": 6,
     "name": "Node Js",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "90%",
     "imgSrc": "/src/assets/Images/images/nodejs.png",
     "active": true
   },
   {
     "id": 7,
     "name": "C#",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "85%",
     "imgSrc": "/src/assets/Images/images/csharp.png",
     "active": true
   },
   {
     "id": 8,
     "name": "Microsoft.Net",
-    "heightvh" : "14vh",
-    "heightdvh" : "14dvh",
+    "heightPerc" : "85%",
     "imgSrc": "/src/assets/Images/images/MicrosoftNet.png",
     "active": true
   },
   {
     "id": 9,
     "name": "MS SQL Server",
-    "heightvh" : "14vh",
-    "heightdvh" : "14dvh",
+    "heightPerc" : "80%",
     "imgSrc": "/src/assets/Images/images/sqlServer.png"
   },
   {
     "id": 10,
     "name": "MySql",
-    "heightvh" : "13vh",
-    "heightdvh" : "13dvh",
+    "heightPerc" : "80%",
     "imgSrc": "/src/assets/Images/images/mySql.png",
     "active": true
   },
   {
     "id": 11,
     "name": "SAP Business One",
-    "heightvh" : "4vh",
-    "heightdvh" : "4dvh",
+    "heightPerc" : "25%",
     "imgSrc": "/src/assets/Images/images/sapb1.png",
     "active": true
   },
   {
     "id": 12,
     "name": "SAP HANA",
-    "heightvh" : "7vh",
-    "heightdvh" : "7dvh",
+    "heightPerc" : "40%",
     "imgSrc": "/src/assets/Images/images/saphana.png",
     "active": true
   },
   {
     "id": 13,
     "name": "Crystal Report",
-    "heightvh" : "10vh",
-    "heightdvh" : "10dvh",
+    "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/crystalReport.png",
     "active": true
   },
   {
     "id": 14,
     "name": "Windows Server",
-    "heightvh" : "12vh",
-    "heightdvh" : "12dvh",
+    "heightPerc" : "75%",
     "imgSrc": "/src/assets/Images/images/winserver.png",
     "active": true
   },
   {
-    "id": "15vh",
+    "id": 15,
     "name": "SUSE Linux Enterprise Server",
-    "heightvh" : "15vh",
-    "heightdvh" : "15dvh",
+    "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/suseLinux.png",
     "active": true
   }
