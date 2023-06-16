@@ -11,7 +11,7 @@ export function AppNavbar ({ type }: Props) {
       <ul>
         <li><a href='#' onClick={type === 'ASIDE' ? menuClick : undefined}>Home</a></li>
         <li><a href='#technologies' onClick={type === 'ASIDE' ? menuClick : undefined}>Technologies</a></li>
-        <li><a href='#' onClick={type === 'ASIDE' ? menuClick : undefined}>Services</a></li>
+        <li><a href='#services' onClick={type === 'ASIDE' ? menuClick : undefined}>Services</a></li>
         <li><a href='#' onClick={type === 'ASIDE' ? menuClick : undefined}>About Us</a></li>
       </ul>
     </nav>
