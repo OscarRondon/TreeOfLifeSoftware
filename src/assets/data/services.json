@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "tittle": "Consultancy",
+    "detail": [
+      "Assesments", 
+      "SAP Business One Add-ons development",
+      "SAP Business One Integration development",
+      "SAP Business One Calculated & Analytics views",
+      "Web application development"
+    ]
+  },
+  {
+    "id": 2,
+    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "tittle": "Support",
+    "detail": [
+      "SAP Business One Support", 
+      "Cloud & On-Premise Infrastructure maintenance",
+      "SAP Hana for SAP Business One maintenance"
+    ]
+  },
+  {
+    "id": 3,
+    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "tittle": "Education",
+    "detail": [
+      "SAP Business One training", 
+      "SAP Business One SDK training",
+      "SAP Business Service Layer training",
+      "Crystal Report for SAP Business One training"
+    ]
+  }
+]

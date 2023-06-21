@@ -1,9 +1,9 @@
 import technologies from '../assets/data/technologies.json'
-import { Techs } from '../dataTypes.d'
+import { Tech } from '../dataTypes.d'
 
 export function Technologies () {
 
-  const techData: Techs[] = technologies as Techs[]
+  const techData: Tech[] = technologies as Tech[]
 
   return (
     <section className='container page-width page-height'>
