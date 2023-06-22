@@ -17,6 +17,14 @@
   gap: 2rem;
 }
 
+.services-card-title {
+  color: var(--color-orange-crayola);
+  font-family: RalewayR;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
 .services-card {
   width: 100%;
   height: 10rem;
