@@ -50,54 +50,61 @@
   },
   {
     "id": 8,
+    "name": "NetCore",
+    "heightPerc" : "75%",
+    "imgSrc": "/src/assets/Images/images/NET_Core.png",
+    "active": true
+  },
+  {
+    "id": 9,
     "name": "Microsoft.Net",
     "heightPerc" : "85%",
     "imgSrc": "/src/assets/Images/images/MicrosoftNet.png",
     "active": true
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "MS SQL Server",
     "heightPerc" : "80%",
     "imgSrc": "/src/assets/Images/images/sqlServer.png"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "MySql",
     "heightPerc" : "80%",
     "imgSrc": "/src/assets/Images/images/mySql.png",
     "active": true
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "SAP Business One",
     "heightPerc" : "25%",
     "imgSrc": "/src/assets/Images/images/sapb1.png",
     "active": true
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "SAP HANA",
     "heightPerc" : "40%",
     "imgSrc": "/src/assets/Images/images/saphana.png",
     "active": true
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Crystal Report",
     "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/crystalReport.png",
     "active": true
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Windows Server",
     "heightPerc" : "75%",
     "imgSrc": "/src/assets/Images/images/winserver.png",
     "active": true
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "SUSE Linux Enterprise Server",
     "heightPerc" : "70%",
     "imgSrc": "/src/assets/Images/images/suseLinux.png",

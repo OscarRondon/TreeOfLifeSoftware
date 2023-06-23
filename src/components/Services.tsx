@@ -14,12 +14,12 @@ export function Services () {
           <span id='services' className='main-inpage-anchor-space' />
           <strong>Our Services</strong>
         </h2>
-        <div className='services-list border'>
+        <div className='services-list'>
           {
             servicesData.map((serv) => {
               return (
-                <section key={serv.id} className='services-card border'>
-                  <div>
+                <section key={serv.id} className='services-card'>
+                  <div className='services-card-title-container'>
                     <img src={serv.imgSrc} />
                     <h2 className='services-card-title'>{serv.tittle}</h2>
                   </div>

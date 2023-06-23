@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "imgSrc": "/src/assets/Images/icons/consultancyIcon.svg",
     "tittle": "Consultancy",
     "detail": [
       "Assesments", 
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "imgSrc": "/src/assets/Images/icons/supportIcon.svg",
     "tittle": "Support",
     "detail": [
       "SAP Business One Support", 
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "imgSrc": "/src/assets/Images/images/ht1ml.png",
+    "imgSrc": "/src/assets/Images/icons/educationIcon.svg",
     "tittle": "Education",
     "detail": [
       "SAP Business One training", 
