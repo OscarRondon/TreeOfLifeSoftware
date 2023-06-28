@@ -19,11 +19,13 @@ export function Services () {
             servicesData.map((serv) => {
               return (
                 <section key={serv.id} className='services-card'>
-                  <div className='services-card-title-container'>
-                    <img src={serv.imgSrc} />
-                    <h2 className='services-card-title'>{serv.tittle}</h2>
+                  <div className='services-card-detail'>
+                    <div className='services-title-container'>
+                      <img className='services-tittle-img' src={serv.imgSrc} />
+                      <h2 className='services-card-title'>{serv.tittle}</h2>
+                    </div>
+                    <ServicesDetail servId={serv.id} details={serv.detail} />
                   </div>
-                  <ServicesDetail servId={serv.id} details={serv.detail} />
                 </section>
               )
             })
