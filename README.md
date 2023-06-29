@@ -3,3 +3,8 @@
 - React
 - TypeScript
 - CSS
+
+
+## Times:
+
+- AboutUs component: 0.75 H
