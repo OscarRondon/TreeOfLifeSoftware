@@ -9,7 +9,6 @@ export function AboutUs () {
             <p>
               Tree of Life Software provides to a small, medium and large companies with efficient, reliable, intuitive and scalable software solutions base and created on best practices software development. We have the knoledge and the experience to deliver a great client exprience.
             </p>
-            <button type='button' className='button-m'>CONTACT US</button>
           </div>
           <div>
             <img src='/src/assets/Images/images/t1s.png' />
