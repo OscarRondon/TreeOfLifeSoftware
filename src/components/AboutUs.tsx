@@ -23,39 +23,49 @@ export function AboutUs () {
           <article>
             <img src='/src/assets/Images/images/t1s.png' />
             <h2>Our Values</h2>
-            <ul>
+            <ul className='aboutUs-values-list'>
               <li>
                 <article>
-                  <img src='/src/assets/Images/icons/commitement.png' />
-                  <h3>Commitment</h3>
+                  <div>
+                    <img src='/src/assets/Images/icons/commitement.png' />
+                    <h3>Commitment</h3>
+                  </div>
                   <p>To create innovative products and offer quality services that generate added value and a positive impact on our customers, we apply to the maximum the capabilities we have developed over the years.</p>
                 </article>
               </li>
               <li>
                 <article>
-                  <img src='/src/assets/Images/icons/honesty.png' />
-                  <h3>Honesty</h3>
+                  <div>
+                    <img src='/src/assets/Images/icons/honesty.png' />
+                    <h3>Honesty</h3>
+                  </div>
                   <p>Behaving with authenticity, making coherent what we think, with what we promise and do. We act with honesty and integrity, respecting ethics and taking responsibility for our actions.</p>
                 </article>
               </li>
               <li>
                 <article>
-                  <img src='/src/assets/Images/icons/excellence.png' />
-                  <h3>Excellence</h3>
+                  <div>
+                    <img src='/src/assets/Images/icons/excellence.png' />
+                    <h3>Excellence</h3>
+                  </div>
                   <p>We are determined to be better people and professionals every day. We focus on generating value to our clients, satisfying their needs and exceeding their expectations thanks to the high standards and continuous improvement applied in all our internal processes.</p>
                 </article>
               </li>
               <li>
                 <article>
-                  <img src='/src/assets/Images/icons/passion.png' />
-                  <h3>Passion</h3>
+                  <div>
+                    <img src='/src/assets/Images/icons/passion.png' />
+                    <h3>Passion</h3>
+                  </div>
                   <p>We are motivated by the knowing that we are contributing to the growth of the companies through innovation and digital transformation, improving business viability while creating more and better jobs.</p>
                 </article>
               </li>
               <li>
                 <article>
-                  <img src='/src/assets/Images/icons/innovation.svg' />
-                  <h3>Innovation</h3>
+                  <div>
+                    <img src='/src/assets/Images/icons/innovation.svg' />
+                    <h3>Innovation</h3>
+                  </div>
                   <p>We promote new ideas, the continuous improvement of our processes and the creation of solutions that generate high impact in our products and services to satisfy our clients needs . We are diligent, consider the time of others and value the trust they place in us.</p>
                 </article>
               </li>

@@ -3,3 +3,42 @@
   min-height: 75dvh;
   min-height: 75vh;
 }
+
+.aboutUs-values-list {
+  list-style: none;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.aboutUs-values-list li {
+  margin-top: 30px;
+}
+
+.aboutUs-values-list li article div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.aboutUs-values-list li article img {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+}
+
+.aboutUs-values-list li article div h3 {
+  color: var(--color-orange-crayola);
+  font-family: RalewayR;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+
+.aboutUs-values-list li article p {
+  font-family: RalewayR;
+  font-size: 1.05em;
+  margin-left: 65px;
+  text-align: justify;
+  width: 80%;
+  hyphens: none;
+}

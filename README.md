@@ -7,4 +7,4 @@
 
 ## Times:
 
-- AboutUs component: 0.75 H
+- AboutUs: 2 hh
