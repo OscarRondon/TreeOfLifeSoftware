@@ -6,22 +6,29 @@ export function AboutUs () {
           <span id='aboutUs' className='main-inpage-anchor-space' />
           <article>
             <h2>About Us</h2>
-            <p>
-              Tree of Life Software provides to a small, medium and large companies with efficient, reliable, intuitive and scalable software solutions base and created on best practices software development. We have the knoledge and the experience to deliver a great client exprience.
-            </p>
+            <div className='aboutUs-content'>
+              <p>
+                Tree of Life Software provides to a small, medium and large companies with efficient, reliable, intuitive and scalable software solutions base and created on best practices software development. We have the knoledge and the experience to deliver a great client exprience.
+              </p>
+              <img src='/src/assets/Images/images/aboutUs.jpg' />
+            </div>
           </article>
           <article>
-            <img src='/src/assets/Images/images/t1s.png' />
             <h2>Our Mission</h2>
-            <p>Tree of Life Sotware, is focused on using innovative technologies to provide competitive advantages to its clients. Our priority its to make the best software solutions, with the highest standarts that really helps to the efficiency and cost effectiveness of your business.</p>
+            <div className='aboutUs-content'>
+
+              <img src='/src/assets/Images/images/ourMission.jpg' />
+              <p>Tree of Life Sotware, is focused on using innovative technologies to provide competitive advantages to its clients. Our priority its to make the best software solutions, with the highest standarts that really helps to the efficiency and cost effectiveness of your business.</p>
+            </div>
           </article>
           <article>
             <h2>Our Vission</h2>
-            <p>To be a company with an international reputation for technological excellence, quality products, innovative solutions and services. To provide competitive advantages to our customers and become a great place to work so that people feel inspired to give their best.</p>
-            <img src='/src/assets/Images/images/t1s.png' />
+            <div className='aboutUs-content'>
+              <p>To be a company with an international reputation for technological excellence, quality products, innovative solutions and services. To provide competitive advantages to our customers and become a great place to work so that people feel inspired to give their best.</p>
+              <img src='/src/assets/Images/images/ourVission.jpg' />
+            </div>
           </article>
           <article>
-            <img src='/src/assets/Images/images/t1s.png' />
             <h2>Our Values</h2>
             <ul className='aboutUs-values-list'>
               <li>

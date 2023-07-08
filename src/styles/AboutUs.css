@@ -4,6 +4,37 @@
   min-height: 75vh;
 }
 
+.aboutUs-container article h2 {
+  font-family: RalewayR;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-left: 10px;
+}
+
+.aboutUs-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.aboutUs-content p {
+  font-size: 1.5em;
+  width: 60%;
+  hyphens: none;
+  text-align: justify;
+}
+
+.aboutUs-content img {
+  width: 450px;
+  height: 150px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
 .aboutUs-values-list {
   list-style: none;
   width: 80%;
@@ -36,7 +67,7 @@
 
 .aboutUs-values-list li article p {
   font-family: RalewayR;
-  font-size: 1.05em;
+  font-size: 1.30em;
   margin-left: 60px;
   text-align: justify;
   width: 80%;
