@@ -7,4 +7,4 @@
 
 ## Times:
 
-- AboutUs: 2 hh
+- AboutUs: 2.5 hh
