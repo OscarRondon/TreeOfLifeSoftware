@@ -8,4 +8,4 @@
 ## Times:
 
 - AboutUs: 3.5 hh
-- ContactUsModal: 1.5 hh
+- ContactUsModal: 2.5 hh

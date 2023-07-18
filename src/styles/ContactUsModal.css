@@ -7,49 +7,84 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(87, 117, 144, 0.9);
+  background-color: rgb(87, 117, 144, 0.7);
   z-index: 2;
 }
 
 .contactUsModal-content {
-  height: 10 vh;
-  height: 50 dvh;
-  width: 20 vw;
-  width: 20 dvw;
+  height: 650px;
+  width: 500px;
   border-radius: 15px;
   background-color: var(--color-orange-bg);
-  box-shadow: 0px 0px 10px 3px #ffffff;
-  padding: 15px;
+
+  padding: 30px;
+  border: solid var(--color-gray-paynes) 1px
+}
+
+.contactUsModal-content header {
+  height: 10%;
 }
 
 .contactUsModal-content header h2 {
   color: var(--color-orange-crayola);
   font-family: RalewayR;
   font-weight: bold;
-  font-size: 2.5em;
-  margin-top: 10px;
+  font-size: 2em;
+  margin-top: 5px;
   margin-bottom: 10px;
   text-align: center;
-  border: solid blue 2px;
 }
 
-.contactUsModal-content section form {
-  height: 20vh;
-  height: 30dvh;
-
+.contactUsModal-content-data {
+  height: 65%;
+  overflow: hidden;
 }
 
-.contactUsModal-content section form {
+.contactUsModal-field {
   display: flex;
   flex-direction: column;
-  border: solid green 2px;
+  margin-bottom: 15px;
 }
 
-.contactUsModal-content footer {
+.contactUsModal-field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contactUsModal-field input {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 35px;
+  padding: 10px;
+  border: solid var(--color-gray-paynes) 1px
+}
+
+.contactUsModal-field textarea {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 200px;
+  padding: 10px;
+  resize: none;
+  border: solid var(--color-gray-paynes) 1px;
+}
+
+.contactUsModal-content-robot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  overflow: hidden;
+}
+
+
+.contactUsModal-content-footer {
   display: flex;
   flex-direction: row;
   position: relative;
-  bottom: -20%;
-  height: 20%;
-  border: solid red 3px
+  bottom: 0;
+  height: 10%;
+  align-items: center;
+  justify-content: space-around;
 }

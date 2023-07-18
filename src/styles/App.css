@@ -94,6 +94,29 @@ h6 {
 /**********************************************************************************************************/
 /* Buttons */
 /**********************************************************************************************************/
+.button-s {
+  width: 130px;
+  height: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--color-orange-crayola);
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+}
+
+.button-s:hover {
+
+  transform: scale(1.05);
+}
+
+.button-s:active {
+  opacity: 0.5;
+  border: solid var(--color-gray-paynes);
+}
+
 .button-m {
   width: 150px;
   height: 50px;
