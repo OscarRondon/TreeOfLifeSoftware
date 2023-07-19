@@ -70,7 +70,7 @@
   border: solid var(--color-gray-paynes) 1px;
 }
 
-.contactUsModal-content-robot {
+.contactUsModal-content-recaptcha {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +85,6 @@
   position: relative;
   bottom: 0;
   height: 10%;
-  align-items: center;
+  align-items: end;
   justify-content: space-around;
 }

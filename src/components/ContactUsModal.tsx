@@ -1,13 +1,14 @@
 
-
+import ReCAPTCHA from 'react-google-recaptcha'
 export function ContactUsModal () {
+
   return (
     <div className='contactUsModal'>
       <article className='contactUsModal-content'>
-        <header className='border-red'>
+        <header className=''>
           <h2>CONTACT US</h2>
         </header>
-        <section className='contactUsModal-content-data border'>
+        <section className='contactUsModal-content-data'>
           <form action='#'>
             <div className='contactUsModal-field'>
               <label>Email: </label><input type='email' placeholder='Email' autoComplete='off' />
@@ -20,11 +21,13 @@ export function ContactUsModal () {
             </div>
           </form>
         </section>
-        <section className='contactUsModal-content-robot border-red'>
-          <p>Im not a robot section</p>
+        <section className='contactUsModal-content-recaptcha '>
+          <ReCAPTCHA
+            sitekey={import.meta.env.Google_reCaptcha_siteKey}
+          />
         </section>
-        <footer className='contactUsModal-content-footer border'>
-          <button type='submit' className='button-s'>Send</button>
+        <footer className='contactUsModal-content-footer'>
+          <button type='submit' className='button-s'>Submit</button>
           <button type='button' className='button-s'>Cancel</button>
         </footer>
       </article>
