@@ -36,6 +36,10 @@ h6 {
   border: dashed var(--color-gray-paynes) 0.3px;
 }
 
+.border-error {
+  border: solid red 2px
+}
+
 .border-red {
   border: dashed var(--color-imperial-red) 0.3px;
 }

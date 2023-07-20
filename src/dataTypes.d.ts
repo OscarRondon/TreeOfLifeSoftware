@@ -12,3 +12,10 @@ export interface Service {
   tittle: string
   detail: string[]
 }
+
+export interface ContactUsData {
+  Email: string
+  Name: string
+  Comments: string
+  'g-recaptcha-response': string
+}

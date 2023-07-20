@@ -16,9 +16,8 @@
   width: 500px;
   border-radius: 15px;
   background-color: var(--color-orange-bg);
-
   padding: 30px;
-  border: solid var(--color-gray-paynes) 1px
+
 }
 
 .contactUsModal-content header {
@@ -43,7 +42,9 @@
 .contactUsModal-field {
   display: flex;
   flex-direction: column;
+  margin: auto;
   margin-bottom: 15px;
+  width: 90%;
 }
 
 .contactUsModal-field label {
@@ -57,7 +58,7 @@
   border-radius: 5px;
   height: 35px;
   padding: 10px;
-  border: solid var(--color-gray-paynes) 1px
+
 }
 
 .contactUsModal-field textarea {
@@ -67,7 +68,6 @@
   height: 200px;
   padding: 10px;
   resize: none;
-  border: solid var(--color-gray-paynes) 1px;
 }
 
 .contactUsModal-content-recaptcha {
